@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import PageNotFound from './components/404' 
 import Login from './components/Login'
 import Dashboard from './components/Dashboard'
-import Category from './components/Catalog/Category'
+import Category from './components/catalog/Category'
 import Product from './components/catalog/Product' 
 import { Navigate, Outlet} from 'react-router-dom';
 import useAuth from './hooks/useAuth' 
