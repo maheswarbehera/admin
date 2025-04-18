@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Constants for configuration
-const API_BASE_URL = "http://localhost:8080/api/v1" ; // Replace with your API base URL 
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL; // Replace with your API base URL 
 const DEFAULT_HEADERS = {
   'Content-Type': 'application/json', // Default headers for all requests
 };
